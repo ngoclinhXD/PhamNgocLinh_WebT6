@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Arial";
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000448;
+    color: #fff;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+}

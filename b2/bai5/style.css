@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    font-family: sans-serif;
+    padding: 12px
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+}
+
+.item {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 8px
+}
+
+.i1 {
+    grid-column: span 2;
+    background: #2563eb
+}
+
+.i2 {
+    background: #16a34a
+}
+
+.i3 {
+    background: #dc2626
+}
+
+.i4 {
+    grid-column: span 2;
+    background: #d97706
+}
+
+.i5 {
+    background: #7c3aed
+}
+
+.i6 {
+    background: #0891b2
+}

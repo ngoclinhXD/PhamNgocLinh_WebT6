@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 10px;
+}
+a {
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.note {
+    color: #fff;
+}
+.tags {
+    display: flex;
+    flex-direction: column;
+}
+.tag {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(255, 221, 0);
+    border: hidden;
+    border-radius: 10px;
+}
